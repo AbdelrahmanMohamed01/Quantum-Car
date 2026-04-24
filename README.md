@@ -69,25 +69,35 @@ Factory capabilities:
 
   
 ## Project Structure
- `com.quantumcar │ ├── domain │   ├── car │   │   └── Car.java │   │ │   └── engine │       ├── Engine.java │       ├── EngineType.java │       └── impl │           ├── GasolineEngine.java │           ├── ElectronicEngine.java │           └── MixedHybridEngine.java │ ├── factory │   └── CarFactory.java │ └── Main.java ` 
-
+```text
+com.quantumcar
+├── domain
+│   ├── car
+│   │   └── Car.java
+│   └── engine
+│       ├── Engine.java
+│       ├── EngineType.java
+│       └── impl
+│           ├── GasEngine.java
+│           ├── ElectricEngine.java
+│           └── HybridEngine.java
+├── factory
+│   └── CarFactory.java
+└── Main.java
+```
 ## Design Concepts Used
  
  
--  
-**Factory Pattern** `CarFactory` creates cars based on engine type
+- **Factory Pattern** `CarFactory` creates cars based on engine type
  
  
--  
-**Strategy Pattern** `Engine` interface allows interchangeable engine implementations
+- **Strategy Pattern** `Engine` interface allows interchangeable engine implementations
  
  
--  
-**Encapsulation** Engine logic is hidden inside implementations
+- **Encapsulation** Engine logic is hidden inside implementations
  
  
--  
-**Composition** Hybrid engine contains both gas and electric engines
+- **Composition** Hybrid engine contains both gas and electric engines
  
  
 
