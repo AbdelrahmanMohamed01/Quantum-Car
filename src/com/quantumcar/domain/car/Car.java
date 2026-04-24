@@ -19,14 +19,14 @@ public class Car {
     }
     public void accelerate(){
         System.out.println("ACCELERATE!!!");
-        if(this.speed<200){
+        if(speed<200){
             speed+=20;
         }
         engine.setSpeed(speed);
     }
     public void brake(){
         System.out.println("BRAKE!!!");
-        if(this.speed>20){
+        if(speed>20){
             speed-=20;
         }
         engine.setSpeed(speed);
