@@ -97,7 +97,7 @@ com.quantumcar
  
 
   
-## 🚀 How to Run
+## How to Run
  
  
 1. Clone the repository: `git clone https://github.com/AbdelrahmanMohamed01/Quantum-Car.git ` 
