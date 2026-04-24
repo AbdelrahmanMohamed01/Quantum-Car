@@ -3,8 +3,7 @@
 A simple Java project that demonstrates clean object-oriented design using a **Car Factory system** with interchangeable engine types.
   
 ## Features 
--  
-Supports multiple engine types:
+- Supports multiple engine types:
  
  
   - Gas Engine
@@ -16,8 +15,7 @@ Supports multiple engine types:
 
  
  
--  
-Car operations:
+- Car operations:
  
  
   - `start()` → starts engine at speed 0
@@ -31,8 +29,7 @@ Car operations:
 
  
  
--  
-Engine behavior:
+- Engine behavior:
  
  
   - Each engine maintains its own internal speed
@@ -42,8 +39,7 @@ Engine behavior:
 
  
  
--  
-Hybrid engine logic:
+- Hybrid engine logic:
  
  
   - Uses **Electric Engine** below 50 km/h
@@ -55,8 +51,7 @@ Hybrid engine logic:
 
  
  
--  
-Factory capabilities:
+- Factory capabilities:
  
  
   - Create cars with different engine types
