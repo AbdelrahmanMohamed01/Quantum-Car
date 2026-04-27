@@ -89,11 +89,6 @@ com.quantumcar
 - **Strategy Pattern** `Engine` interface allows interchangeable engine implementations
  
  
-- **Encapsulation** Engine logic is hidden inside implementations
- 
- 
-- **Composition** Hybrid engine contains both gas and electric engines
- 
  
 
   
